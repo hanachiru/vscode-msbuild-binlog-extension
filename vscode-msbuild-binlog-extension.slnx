@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/tool/">
+    <Project Path="tool/BinlogReader/BinlogReader.csproj" />
+  </Folder>
+</Solution>

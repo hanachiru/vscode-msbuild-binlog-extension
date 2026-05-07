@@ -1,0 +1,42 @@
+{
+  "name": "vscode-msbuild-binlog-extension",
+  "displayName": "MSBuild Binlog Viewer",
+  "description": "View MSBuild .binlog files in VS Code.",
+  "version": "0.0.1",
+  "publisher": "hanachiru",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCustomEditor:msbuildBinlog.viewer"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "customEditors": [
+      {
+        "viewType": "msbuildBinlog.viewer",
+        "displayName": "MSBuild Binlog Viewer",
+        "selector": [
+          {
+            "filenamePattern": "*.binlog"
+          }
+        ],
+        "priority": "default"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./tsconfig.json && tsc -p ./tsconfig.webview.json",
+    "compile:helper": "dotnet build ./vscode-msbuild-binlog-extension.slnx",
+    "watch": "tsc -w -p ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "@types/vscode": "^1.100.0",
+    "typescript": "^5.8.3"
+  }
+}
