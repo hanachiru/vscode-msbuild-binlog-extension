@@ -4,6 +4,8 @@
 
 MSBuild Binlog Viewer は、MSBuild の `.binlog` を VS Code の専用 Viewer で開いて確認するための拡張機能です。
 
+<img width="1624" height="989" alt="img" src="https://github.com/user-attachments/assets/02fb8fe1-c9c1-40c1-bb32-c3cafdfc339c" />
+
 ## 使い方
 
 1. `.binlog` ファイルを VS Code で開きます
