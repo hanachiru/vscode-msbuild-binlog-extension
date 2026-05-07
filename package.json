@@ -5,6 +5,10 @@
   "version": "0.0.1",
   "publisher": "hanachiru",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanachiru/vscode-msbuild-binlog-extension.git"
+  },
   "engines": {
     "vscode": "^1.100.0"
   },
