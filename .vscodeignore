@@ -4,6 +4,9 @@
 .vscode/**
 docs/**
 src/**
+!src/webview/
+!src/webview/summary/
+!src/webview/summary/summary.css
 node_modules/**
 tool/**/obj/**
 tool/**/*.cs
