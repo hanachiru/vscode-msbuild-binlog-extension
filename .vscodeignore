@@ -1,0 +1,14 @@
+.github/**
+.git/**
+.idea/**
+.vscode/**
+docs/**
+src/**
+node_modules/**
+tool/**/obj/**
+tool/**/*.cs
+tool/**/*.csproj
+tool/**/*.sln
+tool/**/*.slnx
+tsconfig*.json
+*.vsix
