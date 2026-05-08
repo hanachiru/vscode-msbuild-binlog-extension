@@ -4,7 +4,7 @@
 
 MSBuild Binlog Viewer is a Visual Studio Code extension for opening and reading MSBuild `.binlog` files in a dedicated viewer.
 
-<img width="1624" height="989" alt="img" src="https://github.com/user-attachments/assets/02fb8fe1-c9c1-40c1-bb32-c3cafdfc339c" />
+![MSBuild Binlog Viewer screenshot](./docs/images/marketplace.png)
 
 ## How To Use
 
