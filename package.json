@@ -34,7 +34,7 @@
     ]
   },
   "scripts": {
-    "compile": "tsc -p ./tsconfig.json && tsc -p ./tsconfig.webview.json",
+    "compile": "tsc -p ./tsconfig.json && tsc -p ./tsconfig.webview.json && node ./scripts/copy-webview-assets.mjs",
     "compile:helper": "dotnet build ./vscode-msbuild-binlog-extension.slnx",
     "watch": "tsc -w -p ./tsconfig.json"
   },

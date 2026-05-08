@@ -7,7 +7,7 @@ export function renderSummaryHtml(
   documentUri: vscode.Uri,
 ): string {
   const scriptUri = webview.asWebviewUri(vscode.Uri.joinPath(context.extensionUri, 'out', 'webview', 'main.js'));
-  const styleUri = webview.asWebviewUri(vscode.Uri.joinPath(context.extensionUri, 'src', 'webview', 'summary', 'summary.css'));
+  const styleUri = webview.asWebviewUri(vscode.Uri.joinPath(context.extensionUri, 'out', 'webview', 'summary', 'summary.css'));
   const csp = [
     "default-src 'none'",
     `style-src ${webview.cspSource}`,
