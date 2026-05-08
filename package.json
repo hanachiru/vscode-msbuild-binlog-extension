@@ -2,7 +2,7 @@
   "name": "vscode-msbuild-binlog-extension",
   "displayName": "MSBuild Binlog Viewer",
   "description": "View MSBuild .binlog files in VS Code.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "hanachiru",
   "license": "MIT",
   "repository": {
