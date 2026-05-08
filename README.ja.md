@@ -1,5 +1,9 @@
 # MSBuild Binlog Viewer for VS Code
 
+[![Releases](https://img.shields.io/github/release/hanachiru/vscode-msbuild-binlog-extension.svg)](https://github.com/hanachiru/vscode-msbuild-binlog-extension/releases)
+[![license](https://img.shields.io/badge/LICENSE-MIT-green.svg)](LICENSE)
+[![test](https://github.com/hanachiru/vscode-msbuild-binlog-extension/actions/workflows/test.yml/badge.svg)](https://github.com/hanachiru/vscode-msbuild-binlog-extension/actions/workflows/test.yml)
+
 [English README](./README.md)
 
 MSBuild Binlog Viewerは、MSBuildの`.binlog`を専用 Viewerで開いて確認するためのVS Code拡張機能です。
