@@ -86,7 +86,7 @@ jobs:
         run: npm exec -- @vscode/vsce package --out "${{ steps.release_version.outputs.vsix }}"
 
       - name: Upload VSIX artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: msbuild-binlog-viewer-vsix
           path: ${{ steps.release_version.outputs.vsix }}
