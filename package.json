@@ -39,7 +39,7 @@
     "watch": "tsc -w -p ./tsconfig.json"
   },
   "devDependencies": {
-    "@vscode/vsce": "^3.9.1",
+    "@vscode/vsce": "^3.9.2",
     "@types/node": "^25.7.0",
     "@types/vscode": "^1.100.0",
     "typescript": "^6.0.3"
